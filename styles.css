@@ -17,7 +17,7 @@ body {
 .form-box {
   width: 300px;
   padding: 40px;
-  background-color: red;
+  background-color: greenyellow;
   text-align: center;
 }
 
@@ -29,7 +29,7 @@ body {
 
 .form-box input[type="text"],
 .form-box input[type="password"],
-.form-box button[type="sudmit"] {
+.form-box button[type="submit"] {
   border: 0;
   background: nome;
   display: block;
@@ -49,13 +49,14 @@ body {
   border-color: #ffffff;
 }
 
-.form-box button[type="sudmit"] {
+.form-box button[type="submit"] {
   border: 0;
   background: #5253ed;
+  transition: 0.25s;
   cursor: pointer;
   border: 2px solid blue;
 }
 
-.form-box button[type="sudmit"]:hover {
+.form-box button[type="submit"]:hover {
   background:none;}  
 
